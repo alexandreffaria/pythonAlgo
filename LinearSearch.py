@@ -9,7 +9,7 @@ def linearSearch(haystack, needle):
         if haystack[i] == needle:
             print(f"Needle {needle} found at index: {i}")
             return True
-        time.sleep(.1)
+        # time.sleep(.1)
     print(f"No {needle} in the haystack")
     return False
 
